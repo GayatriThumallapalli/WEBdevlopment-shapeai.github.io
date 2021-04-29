@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial;
+  }
+  .logo{
+      padding: 0px;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size:30px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .navbar a:hover {
+    background-color: #333;
+    color:rgb(166, 243, 237);
+    text-decoration:underline;
+  }
+  
+  .signin a
+  {
+     float: right;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     text-decoration: underline;
+  }
+  .signin a:hover{
+      color: rgb(250, 200, 91);
+  }
+ .logo img{
+     height:55px;
+ }
+ .top-left {
+    position: absolute;
+    top: 208px;
+    left: 40px;
+    color: cornsilk;
+    font-size: 18px;
+    font-family:cursive;
+  }
+  .btn
+  {color: cornsilk;}
+  .btn:hover{
+      color: rgb(5, 149, 130);
+  }
